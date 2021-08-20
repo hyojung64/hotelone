@@ -510,7 +510,25 @@ server:
 
 
 
-# ConfigMap
+## ConfigMap
+
+Customer 서비스의 configMap 설정
+
+-configmap.yml
+
+![image](https://user-images.githubusercontent.com/87048623/130187231-4ff38fc9-6958-4a83-868c-edb4849de0f5.png)
+
+
+- deployment.yml
+
+![image](https://user-images.githubusercontent.com/87048623/130187320-156a1c4e-abb2-445f-b905-bb7bd4304e6e.png)
+
+
+시스템별로 또는 운영중에 동적으로 변경 가능성이 있는 설정들을 ConfigMap을 사용하여 관리합니다.
+
+kubectl describe pod/customer-55bcc4b5c6-mrswl
+
+![image](https://user-images.githubusercontent.com/87048623/130187675-48fa9866-2a3f-4c6f-8c12-7511040fa928.png)
 
 
 
