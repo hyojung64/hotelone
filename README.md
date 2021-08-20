@@ -738,6 +738,18 @@ Concurrency:		       96.02
 ```
 siege -v -c100 -t60S -r10 --content-type "application/json" 'http://user01-order-test:8080/paymentHistories'
 ```
+![image](https://user-images.githubusercontent.com/87048623/130171580-b34cd2e2-9166-49b5-b3fd-902a6f212a14.png)
+
+
+- payment 서비스의 buidspec.yml 파일에 Readiness 설정되어 있음
+
+![image](https://user-images.githubusercontent.com/87048623/130171760-6f06612b-2cc0-46e4-a683-e7d557019daf.png)
+
+
+- CI/CD CodeBuild 를 통한 재배포 
+
+![image](https://user-images.githubusercontent.com/87048623/130171968-d2f0ad7e-d7bd-425a-b20e-4d21b1b20e49.png)
+
 
 - payment 서비스 재배포 시 새로운 서비스가 완전히 구동되기 전까지 기존 서비스가 구동된다. 
 
@@ -746,8 +758,7 @@ siege -v -c100 -t60S -r10 --content-type "application/json" 'http://user01-order
 
 - 배포기간 동안 Availability 가 변화없기 때문에 무정지 재배포가 성공한 것으로 확인됨.
 
-![image](https://user-images.githubusercontent.com/87048623/130170906-226fa82b-d7da-4c2a-b958-b341a808a922.png)
-
+![image](https://user-images.githubusercontent.com/87048623/130171606-38c3f1b2-ec20-40d5-b0b1-92b3ffd1b425.png)
 
 
 
