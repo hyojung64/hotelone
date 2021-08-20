@@ -741,7 +741,7 @@ siege -v -c100 -t60S -r10 --content-type "application/json" 'http://user01-order
 ![image](https://user-images.githubusercontent.com/87048623/130171580-b34cd2e2-9166-49b5-b3fd-902a6f212a14.png)
 
 
-- payment 서비스의 buidspec.yml 파일에 Readiness 설정되어 있음
+- payment 서비스의 yaml 파일에 Readiness 설정되어 있음
 
 ![image](https://user-images.githubusercontent.com/87048623/130171760-6f06612b-2cc0-46e4-a683-e7d557019daf.png)
 
