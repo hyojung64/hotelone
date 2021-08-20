@@ -811,8 +811,10 @@ Concurrency:		       96.02
                       failureThreshold: 5
 		      
 ```
+
 payment 서비스 재배포 시 새로운 서비스가 완전히 구동되기 전까지 기존 서비스가 구동된다. 
 신규 배포가 완전히 구동된 이후에 기존 서비스가 없어진 것을 확인할 수 있다. 
+
 ![image](https://user-images.githubusercontent.com/87048623/130163278-40d5271c-a241-48fa-bf2a-ec22b20adda3.png)
 
 무정지 재배포가 된 것을 확인할 수 있다. 
