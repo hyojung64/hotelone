@@ -510,6 +510,7 @@ server:
 
 
 
+# ConfigMap
 
 
 
@@ -549,5 +550,18 @@ siege -v -c100 -t60S -r10 --content-type "application/json" 'http://user01-order
 
 # Liveness
 
+Payment 배포시 yaml 파일내 Liveness 설정되어 있음.
+
 ![image](https://user-images.githubusercontent.com/87048623/130185233-aba544d2-3ad5-402b-b3ae-6166b9138c4b.png)
 
+
+정상 작동 여부 확인을 위해 기존 payment pod를 삭제함.
+
+![image](https://user-images.githubusercontent.com/87048623/130186240-c93e8174-fbe1-4c42-af75-9175fa1e1aef.png)
+
+
+정상적으로 재생성 되는 것 확인
+
+![image](https://user-images.githubusercontent.com/87048623/130186270-9930963b-c4f0-477b-9526-73b3f0969f17.png)
+
+![image](https://user-images.githubusercontent.com/87048623/130186300-6c9934f3-70e0-41b3-82e9-85abd76135cd.png)
