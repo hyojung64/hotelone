@@ -737,7 +737,7 @@ Concurrency:		       96.02
 - seige 로 배포작업 직전에 워크로드를 모니터링 함.
 ```
 siege -v -c100 -t60S -r10 --content-type "application/json" 'http://user01-order-test:8080/paymentHistories'
-
+```
 
 - payment 서비스 재배포 시 새로운 서비스가 완전히 구동되기 전까지 기존 서비스가 구동된다. 
 
