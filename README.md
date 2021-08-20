@@ -552,6 +552,10 @@ siege -v -c100 -t60S -r10 --content-type "application/json" 'http://user01-order
 
 Payment 배포시 yaml 파일내 Liveness 설정되어 있음.
 
+![image](https://user-images.githubusercontent.com/87048623/130187084-089333e5-dcc9-420f-98f9-8542b7b2e0c7.png)
+
+
+
 ![image](https://user-images.githubusercontent.com/87048623/130185233-aba544d2-3ad5-402b-b3ae-6166b9138c4b.png)
 
 
