@@ -509,6 +509,16 @@ server:
 
 
 
+## 동기식 호출 / 서킷 브레이킹 / 장애격리
+
+### 부하테스트
+
+![image](https://user-images.githubusercontent.com/87048623/130191301-54b272bf-6bbc-4287-8ade-e73ae575d0ce.png)
+
+![image](https://user-images.githubusercontent.com/87048623/130191372-33aa0803-80cd-449a-bfbb-029c1aa0585f.png)
+
+![image](https://user-images.githubusercontent.com/87048623/130191449-a48f375a-318f-4df8-bc79-dcfc29be4e40.png)
+
 
 ## ConfigMap
 
